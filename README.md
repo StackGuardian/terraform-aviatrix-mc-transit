@@ -1,7 +1,7 @@
 # terraform-aviatrix-mc-transit
 
 ### Description
-Deploys a VPC/VNET/VCN and Aviatrix Transit gateways.
+Deploys a VPC/VNET/VCN and Aviatrix Transit gateways
 
 ### Compatibility
 Module version | Terraform version | Controller version | Terraform provider version
@@ -23,7 +23,7 @@ key | value
 :--- | :---
 cloud | Cloud where this is deployed. Valid values: "AWS", "Azure", "ALI", "OCI", "GCP"
 [region](https://registry.terraform.io/providers/AviatrixSystems/aviatrix/latest/docs/resources/aviatrix_vpc#region) | Cloud region to deploy this VPC/VNET/VCN in
-[cidr](https://registry.terraform.io/providers/AviatrixSystems/aviatrix/latest/docs/resources/aviatrix_vpc#cidr) | What ip CIDR to use for this VPC/VNET/VCN
+[cidr](https://registry.terraform.io/providers/AviatrixSystems/aviatrix/latest/docs/resources/aviatrix_vpc#cidr) | What IP CIDR to use for this VPC/VNET/VCN
 [account](https://registry.terraform.io/providers/AviatrixSystems/aviatrix/latest/docs/resources/aviatrix_vpc#account_name) | The account name as known by the Aviatrix controller
 
 The following variables are optional:
